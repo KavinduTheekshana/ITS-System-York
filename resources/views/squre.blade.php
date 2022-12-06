@@ -1,7 +1,7 @@
 @extends('layouts.headers')
 
 @section('content')
-<body style="background-color: #fa9bb1">
+<body style="background-color: #F5B0CB">
 
     <div class="container p-5 shapes">
         <h1 class="m-5 text-center">Squre Perimeter and Area</h1>

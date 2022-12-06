@@ -10,11 +10,11 @@
     
             <div class="col">
                <h3 class="ml-4">Length</h3>
-               <input class="form-control form-control-lg txtheight" type="number" placeholder="Please Enter Height">
+               <input class="form-control form-control-lg txtlength" type="number" placeholder="Please Enter Height">
              </div>
              <div class="col">
-               <h3>Base</h3>
-               <input class="form-control form-control-lg txtbase" type="number" placeholder="Please Enter Base">
+               <h3>Width</h3>
+               <input class="form-control form-control-lg txtwidth" type="number" placeholder="Please Enter Width">
              </div>
            </div>
 
@@ -67,9 +67,9 @@
         //Area
         $(document).ready(function(){
           $(".btnarea").click(function(){
-            var base = $(".txtbase").val();
-            var height = $(".txtheight").val();
-            var result = base*height*0.5;
+            var length = $(".txtlength").val();
+            var width = $(".txtwidth").val();
+            var result = length*width;
             $(".result").val(result);
           });
         });
@@ -77,8 +77,9 @@
         //Perimeter
         $(document).ready(function(){
           $(".btnparameter").click(function(){
-            var side = $(".txtside").val();
-            var result = 4*side;
+            var length = $(".txtlength").val();
+            var width = $(".txtwidth").val();
+            var result = length*2+width*2;
             $(".result").val(result);
           });
         });
@@ -86,8 +87,8 @@
         //clear
         $(document).ready(function(){
           $(".btnclear").click(function(){
-            $('.txtheight').val('');
-            $('.txtbase').val('');
+            $('.txtlength').val('');
+            $('.txtwidth').val('');
             $('.result').val('');
           });
         });

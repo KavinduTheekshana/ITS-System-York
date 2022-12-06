@@ -32,6 +32,12 @@ body {
   h1{
     font-family: 'Anton', serif;
     font-size: 80px;
+    text-transform: uppercase;
+  }
+  p{
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+    letter-spacing: 20px;
   }
   .col{
     h3{
@@ -97,7 +103,7 @@ body {
 }
 
 #div2 {
-  background: #F76F8E;
+  background: #F5B0CB;
   transition: 0.3s;
   display:flex;
   justify-content:center;
@@ -115,7 +121,7 @@ body {
     width: 150px;
   }
   &:hover{
-    background: #e86785;
+    background: #d798b1;
     cursor: pointer;
   }
 }
@@ -191,7 +197,7 @@ body {
     }
   }
   #div6 {
-    background: #FE4A49;
+    background: #25CED1;
     transition: 0.3s;
     display:flex;
     justify-content:center;
@@ -209,12 +215,12 @@ body {
       width: 150px;
     }
     &:hover{
-      background: #e84848;
+      background: #1db6b8;
       cursor: pointer;
     }
   }
   #div7 {
-    background: #8884FF;
+    background: #95B46A;
     transition: 0.3s;
     display:flex;
     justify-content:center;
@@ -232,12 +238,12 @@ body {
       width: 150px;
     }
     &:hover{
-      background: #7a76e7;
+      background: #779153;
       cursor: pointer;
     }
   }
   #div8 {
-    background: #419D78;
+    background: #E29578;
     transition: 0.3s;
     display:flex;
     justify-content:center;
@@ -255,7 +261,7 @@ body {
       width: 150px;
     }
     &:hover{
-      background: #348263;
+      background: #c68067;
       cursor: pointer;
     }
   }
