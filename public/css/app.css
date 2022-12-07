@@ -37,7 +37,7 @@ body {
 .shapes p {
   font-family: "Raleway", serif;
   text-transform: uppercase;
-  letter-spacing: 20px;
+  letter-spacing: 5px;
 }
 .shapes .col h3 {
   font-family: "Anton", serif;

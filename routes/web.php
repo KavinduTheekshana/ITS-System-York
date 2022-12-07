@@ -56,3 +56,7 @@ Route::get('cuboid', function () {
 Route::get('pyramid', function () {
     return view('pyramid');
 });
+
+Route::get('arathmatic', function () {
+    return view('arathmatic');
+});

@@ -7,7 +7,7 @@
     <span>
     <img src="image/keys.png" alt="">
     <h1>Arithmetic Operations</h1>
-    <a class="btn btn-outline-dark" href="#" role="button">Get Calculations</a>
+    <a class="btn btn-outline-dark" href="arathmatic" role="button">Get Calculations</a>
 </div>
 
 <div id="div10" class="color-card-2">
